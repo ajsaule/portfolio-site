@@ -1,5 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import 'https://fonts.googleapis.com/css2?family=Inconsolata&display=swap';
+/* @import 'https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap'; */
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -22,7 +24,10 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-
+	
+/* * {
+	border: 1px solid red !important;
+} */
 body {
 	line-height: 1;
 }
@@ -77,7 +82,7 @@ input, select, textarea {
 
 .tech-list {
 	padding: 0;
-	margin: 5px 0 0 0;
+	margin: 5px 0 5px 0;
     display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -94,8 +99,12 @@ input, select, textarea {
 	border-radius: 4px;
 	flex-grow: 1;
 	color: white;
-    font-size: 0.8rem;
+	font-size: 0.8rem;
+	font-family: 'Inconsolata', monospace;
 }
+/* .tech-list > *:hover { 
+	color: greenyellow!important;
+} */
 
 /* Project Backgrounds */ 
 
@@ -123,6 +132,31 @@ input, select, textarea {
 	background-color: #a4ce49;
 }
 
+/* Links to projects */ 
+
+#project-web-link {
+	cursor: pointer;
+	background-color: grey;
+}
+#project-web-link:hover {
+	color: lightgrey!important;
+}
+#project-web-link:active {
+	color: darkgrey!important;
+	background-color: rgb(157, 156, 156);
+}
+
+#project-github-link {
+	cursor: pointer;
+	background-color: #252a2e;
+}
+#project-github-link:hover {
+	color: lightgrey!important;
+}
+#project-github-link:active {
+	color: darkgrey!important;
+	background-color: #363d43;
+}
 
 /* Basic */
 
@@ -1363,6 +1397,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+			.tech-list > * {
+				font-size: 1.2em
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
