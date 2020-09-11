@@ -107,9 +107,6 @@ input, select, textarea {
 	/* font-size: 0.8rem; */
 	font-family: 'Inconsolata', monospace;
 }
-/* .tech-list > *:hover { 
-	color: greenyellow!important;
-} */
 
 /* Project Backgrounds */ 
 
@@ -3250,7 +3247,7 @@ input, select, textarea {
 			}
 
 				#header p {
-					font-size: 1em;
+					font-size: 1.5em;
 					letter-spacing: 0;
 				}
 
