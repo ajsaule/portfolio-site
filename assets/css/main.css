@@ -85,6 +85,13 @@ input, select, textarea {
 
 /* Project Tech Lists */
 
+.divider {
+	width: 100%;
+	border-bottom: #dddddd 1px solid;
+	margin: 3.5em 0 4em;
+	display: none;
+}
+
 .tech-list {
 	padding: 0;
 	margin: 5px 0 5px 0;
@@ -2769,6 +2776,10 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
+		.divider {
+			display: block;
+		}
+
 		header.major {
 			margin-bottom: 0;
 		}
@@ -2944,8 +2955,8 @@ input, select, textarea {
 					margin-top: 2em;
 				}
 
-					.features li:nth-child(2), .features li:nth-child(3) {
-						margin-top: 2em;
+					.features li:nth-child(2), .features li:nth-child(3), .features li:nth-child(4), .features li:nth-child(5) {
+						margin-top: 3em;
 					}
 
 		}
