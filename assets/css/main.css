@@ -146,9 +146,9 @@ input, select, textarea {
 	cursor: pointer;
 	background-color: grey;
 }
-#project-web-link:hover {
+/* #project-web-link:hover {
 	color: lightgrey!important;
-}
+} */
 #project-web-link:active {
 	color: darkgrey!important;
 	background-color: rgb(157, 156, 156);
