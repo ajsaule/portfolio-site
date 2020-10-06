@@ -137,7 +137,8 @@ input, select, textarea {
 	color: #474f51;
 }
 #p6 > * {
-	background-color: #a4ce49;
+	background-color: #ffff;
+	color: black;
 }
 
 /* Links to projects */ 
@@ -146,9 +147,9 @@ input, select, textarea {
 	cursor: pointer;
 	background-color: grey;
 }
-/* #project-web-link:hover {
+#project-web-link:hover {
 	color: lightgrey!important;
-} */
+}
 #project-web-link:active {
 	color: darkgrey!important;
 	background-color: rgb(157, 156, 156);
