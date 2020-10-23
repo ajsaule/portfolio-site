@@ -3444,8 +3444,10 @@ input, select, textarea {
 
 		@keyframes color-change {
 			0% { color: red; }
-			50% { color: blue; }
-			100% { color: greenyellow; }
+			25% { color: blue; }
+			50% { color: greenyellow; }
+			75% { color: greenyellow;  }
+			100% { color: red; }
 		}
 
 		#main strong, #main b {
