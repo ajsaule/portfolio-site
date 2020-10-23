@@ -3439,7 +3439,13 @@ input, select, textarea {
 		}
 
 		#main a:hover {
-			color: #636363;
+			animation: color-change 1.5s infinite;
+		}
+
+		@keyframes color-change {
+			0% { color: red; }
+			50% { color: blue; }
+			100% { color: greenyellow; }
 		}
 
 		#main strong, #main b {
