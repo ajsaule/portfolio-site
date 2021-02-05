@@ -141,6 +141,37 @@ input, select, textarea {
 	color: black;
 }
 
+.view-project {
+	font-weight: bold;
+	padding-left: 15px;
+}
+
+/* Project slide in menu */ 
+
+.slide-in-info {
+	position: absolute;
+	border-radius: 8px;
+	bottom: 0;
+	height: 0;
+	width: 100%;
+	background-color: black;
+	opacity: 0;
+	transition: height 0.5s;
+	-webkit-transition: height 0.5s;
+}
+#p6-info {
+	color: white;
+	font-size: 11.5pt;
+	text-align: left;
+	padding: 10px;
+}
+.p6-img:hover + .slide-in-info:hover {
+	height: 50%;
+	opacity: 0.5;
+}
+
+
+
 /* Links to projects */ 
 
 #project-web-link {
@@ -166,6 +197,13 @@ input, select, textarea {
 	color: darkgrey!important;
 	background-color: #363d43;
 }
+
+/* About me section */ 
+
+.about-buttons .actions {
+	justify-content: center;
+	margin-top: 10px;
+} 
 
 /* Basic */
 
@@ -2494,7 +2532,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 0 0;
 			width: 100%;
 		}
 
