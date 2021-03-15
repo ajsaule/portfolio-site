@@ -23,7 +23,8 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
 	
 /* * {
 	border: 1px solid red !important;
@@ -3243,10 +3244,10 @@ input, select, textarea {
 			}
 
 			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
-				transition: opacity 1.25s ease, transform 0.5s ease;
+				-moz-transition: opacity 0.25s ease, -moz-transform 0.5s ease;
+				-webkit-transition: opacity 0.25s ease, -webkit-transform 0.5s ease;
+				-ms-transition: opacity 0.25s ease, -ms-transform 0.5s ease;
+				transition: opacity 0.25s ease, transform 0.5s ease;
 				display: block;
 				margin: 0 0 1.5em 0;
 			}
