@@ -229,6 +229,11 @@ textarea {
   color: black;
 }
 
+#b1 > * {
+  background-color: #1a81a4;
+  color: white;
+}
+
 .view-project {
   font-weight: bold;
   padding-left: 15px;
