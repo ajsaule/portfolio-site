@@ -296,6 +296,15 @@ textarea {
   margin-top: 10px;
 }
 
+/* Services I offer */
+
+@media screen and (max-width: 980px) {
+  .offerings-list {
+    text-align: left;
+    padding-left: 10%;
+  }
+}
+
 /* Basic */
 
 @-ms-viewport {
