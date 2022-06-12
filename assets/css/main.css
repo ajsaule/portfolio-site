@@ -3589,7 +3589,7 @@ body.is-preload #header.alt .logo {
   color: #636363;
 }
 
-#main a:hover {
+/* #main a:hover {
   animation: color-change 1.5s infinite;
 }
 
@@ -3609,7 +3609,7 @@ body.is-preload #header.alt .logo {
   100% {
     color: red;
   }
-}
+} */
 
 #main strong,
 #main b {
