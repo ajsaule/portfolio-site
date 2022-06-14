@@ -159,6 +159,12 @@ textarea {
   appearance: none;
 }
 
+/* Logo Slogan */
+
+.sub-heading {
+  font-size: 8px;
+}
+
 /* Styled Elements */
 
 .programming-lang-icons {
@@ -232,6 +238,12 @@ textarea {
 #b1 > * {
   background-color: #1a81a4;
   color: white;
+}
+
+/* Testimonial */
+
+.testimonial-name {
+  font-weight: bold;
 }
 
 .view-project {
