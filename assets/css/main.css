@@ -3356,19 +3356,19 @@ table.alt tbody tr td {
   font-size: 3.25em;
 }
 
-/* #header.alt > * {
+#header.alt > * {
   -moz-transition: opacity 0s ease;
   -webkit-transition: opacity 0s ease;
   -ms-transition: opacity 0s ease;
   transition: opacity 0s ease;
   opacity: 1;
-} */
+}
 
 #header.alt .logo {
-  /* -moz-transition: opacity 0.25s ease, -moz-transform 0.5s ease;
+  -moz-transition: opacity 0.25s ease, -moz-transform 0.5s ease;
   -webkit-transition: opacity 0.25s ease, -webkit-transform 0.5s ease;
   -ms-transition: opacity 0.25s ease, -ms-transform 0.5s ease;
-  transition: opacity 0.25s ease, transform 0.5s ease; */
+  transition: opacity 0.25s ease, transform 0.5s ease;
   display: block;
   margin: 0 0 1.5em 0;
 } 
