@@ -240,6 +240,11 @@ textarea {
   color: white;
 }
 
+#b2 > * {
+  background-color: white;
+  color: black;
+}
+
 /* Testimonial */
 
 .testimonial-name {
